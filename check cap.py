@@ -29,7 +29,7 @@ def show_all_ui_caps():
 
 if __name__ == '__main__':
     cap_csv_file = 'CapUI.csv'
-    rico_dir = 'C:\\Mulong\\Data\\rico\\rico_sca'
+    rico_dir = '\\Data\\rico\\rico_sca'
     capUI = pd.read_csv(cap_csv_file)
 
     show_all_ui_caps()
